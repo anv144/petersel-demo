@@ -1,0 +1,108 @@
+import type { Product } from '@/store/cartStore'
+
+export const MOCK_PRODUCTS: Product[] = [
+  {
+    id: '1',
+    sku: '9165',
+    title: 'Green Cream Acne Control',
+    price: 2899,
+    image: 'https://picsum.photos/400/400?random=1',
+    images: [
+      'https://picsum.photos/400/400?random=1',
+      'https://picsum.photos/400/400?random=9',
+      'https://picsum.photos/400/400?random=10',
+    ],
+    description: 'Specialized acne control cream with natural green tea extract. Gently reduces inflammation and prevents breakouts. Perfect for sensitive and combination skin types. Hypoallergenic formula.',
+  },
+  {
+    id: '2',
+    sku: '3464',
+    title: 'Green Bean Detox Mask',
+    price: 1999,
+    image: 'https://picsum.photos/400/400?random=2',
+    images: [
+      'https://picsum.photos/400/400?random=2',
+      'https://picsum.photos/400/400?random=11',
+      'https://picsum.photos/400/400?random=12',
+    ],
+    description: 'Deep detoxifying face mask with green bean extract and activated charcoal. Draws out impurities and leaves skin fresh. Apply 2-3 times weekly for best results.',
+  },
+  {
+    id: '3',
+    sku: '3487',
+    title: 'Anti-Aging Gold Persica Essence',
+    price: 2799,
+    image: 'https://picsum.photos/400/400?random=3',
+    images: [
+      'https://picsum.photos/400/400?random=3',
+      'https://picsum.photos/400/400?random=13',
+      'https://picsum.photos/400/400?random=14',
+    ],
+    description: 'Luxurious essence with 24K gold and Persian silk proteins. Boosts collagen production and firms skin. Lightweight texture absorbs quickly without greasy residue.',
+  },
+  {
+    id: '4',
+    sku: '4521',
+    title: 'Camellia Silk Hair Mask',
+    price: 3899,
+    image: 'https://picsum.photos/400/400?random=4',
+    images: [
+      'https://picsum.photos/400/400?random=4',
+      'https://picsum.photos/400/400?random=15',
+      'https://picsum.photos/400/400?random=16',
+    ],
+    description: 'Intensive hair repair mask enriched with camellia oil and silk proteins. Restores shine and smoothness to damaged hair. Leave on for 15-20 minutes for deep conditioning.',
+  },
+  {
+    id: '5',
+    sku: '5634',
+    title: 'Anti-Hair Loss Shampoo 300ml',
+    price: 4700,
+    image: 'https://picsum.photos/400/400?random=5',
+    images: [
+      'https://picsum.photos/400/400?random=5',
+      'https://picsum.photos/400/400?random=17',
+      'https://picsum.photos/400/400?random=18',
+    ],
+    description: 'Clinically tested formula that reduces hair loss by up to 70%. Contains caffeine and biotin to strengthen hair follicles. Promotes thicker, healthier hair growth in 3-4 weeks.',
+  },
+  {
+    id: '6',
+    sku: '5635',
+    title: 'Anti-Hair Loss Shampoo 500ml',
+    price: 5200,
+    image: 'https://picsum.photos/400/400?random=6',
+    images: [
+      'https://picsum.photos/400/400?random=6',
+      'https://picsum.photos/400/400?random=19',
+      'https://picsum.photos/400/400?random=20',
+    ],
+    description: 'Same powerful formula as 300ml in economy-size bottle. Professional-grade anti-hair loss treatment for regular use. Visible results in as little as 2 weeks of consistent use.',
+  },
+  {
+    id: '7',
+    sku: '6721',
+    title: 'Hydrating Face Toner',
+    price: 2199,
+    image: 'https://picsum.photos/400/400?random=7',
+    images: [
+      'https://picsum.photos/400/400?random=7',
+      'https://picsum.photos/400/400?random=21',
+      'https://picsum.photos/400/400?random=22',
+    ],
+    description: 'Alcohol-free hydrating toner that balances skin pH and prepares for treatment serums. Enhanced with hyaluronic acid and botanical extracts for maximum moisture.',
+  },
+  {
+    id: '8',
+    sku: '6722',
+    title: 'Brightening Vitamin C Serum',
+    price: 3299,
+    image: 'https://picsum.photos/400/400?random=8',
+    images: [
+      'https://picsum.photos/400/400?random=8',
+      'https://picsum.photos/400/400?random=23',
+      'https://picsum.photos/400/400?random=24',
+    ],
+    description: 'Stabilized vitamin C serum that brightens dark spots and uneven skin tone. Protects against environmental damage with antioxidant power. Use morning and evening for radiant skin.',
+  },
+]
