@@ -30,7 +30,7 @@ export function CartPage() {
     <div className="min-h-screen bg-background pb-40">
       {/* Header */}
       <div className="bg-white border-b border-border p-4 sticky top-0">
-        <h1 className="text-xl font-bold text-foreground">Cart</h1>
+        <h1 className="text-xl font-bold text-foreground">Корзина</h1>
       </div>
 
       {/* Cart Items */}
@@ -95,7 +95,7 @@ export function CartPage() {
       <div className="bg-white p-4 space-y-4">
         <Separator />
         <div className="flex justify-between items-center">
-          <span className="font-semibold text-foreground">Total:</span>
+          <span className="font-semibold text-foreground">Итого:</span>
           <span className="text-lg font-bold text-primary">
             ₽{total.toLocaleString()}
           </span>

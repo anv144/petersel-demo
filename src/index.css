@@ -160,7 +160,8 @@
   /* Logo with Montserrat font */
   .logo-montserrat {
     font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
+    font-weight: 600;
+    letter-spacing: 0.05em;
   }
 
   /* Hide scrollbar while keeping functionality */

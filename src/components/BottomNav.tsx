@@ -8,10 +8,10 @@ export function BottomNav() {
   const isActive = (path: string) => location.pathname === path
 
   const items = [
-    { icon: Home, label: 'Home', path: '/' },
-    { icon: Grid, label: 'Catalog', path: '/catalog' },
-    { icon: ShoppingCart, label: 'Cart', path: '/cart' },
-    { icon: User, label: 'Profile', path: '/profile' },
+    { icon: Home, label: 'Главная', path: '/' },
+    { icon: Grid, label: 'Каталог', path: '/catalog' },
+    { icon: ShoppingCart, label: 'Корзина', path: '/cart' },
+    { icon: User, label: 'Профиль', path: '/profile' },
   ]
 
   return (

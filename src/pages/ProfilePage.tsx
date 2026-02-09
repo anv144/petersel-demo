@@ -7,7 +7,7 @@ export function ProfilePage() {
     <div className="min-h-screen bg-background pb-40">
       {/* Header */}
       <div className="bg-white border-b border-border p-4 sticky top-0">
-        <h1 className="text-xl font-bold text-foreground">Profile</h1>
+        <h1 className="text-xl font-bold text-foreground">Профиль</h1>
       </div>
 
       {/* Profile Info */}
@@ -19,9 +19,9 @@ export function ProfilePage() {
               <div className="w-12 h-12 rounded-full bg-primary flex items-center justify-center">
                 <span className="text-lg font-bold text-primary-foreground">P</span>
               </div>
-              <div>
-                <CardTitle className="text-base">Guest User</CardTitle>
-                <CardDescription className="text-xs">Telegram Mini App</CardDescription>
+             <div>
+                 <CardTitle className="text-base">Гость</CardTitle>
+                 <CardDescription className="text-xs">Telegram Mini App</CardDescription>
               </div>
             </div>
           </CardHeader>
@@ -29,7 +29,7 @@ export function ProfilePage() {
 
         {/* Contact Section */}
         <div>
-          <h3 className="font-semibold text-foreground mb-3">Contact</h3>
+          <h3 className="font-semibold text-foreground mb-3">Контакты</h3>
           <div className="space-y-2">
             <a
               href="tel:+79687737731"
@@ -50,7 +50,7 @@ export function ProfilePage() {
 
         {/* About Section */}
         <div>
-          <h3 className="font-semibold text-foreground mb-3">About PETERSEL</h3>
+          <h3 className="font-semibold text-foreground mb-3">О PETERSEL</h3>
           <Card>
             <CardContent className="pt-4">
               <p className="text-xs text-muted-foreground leading-relaxed">
@@ -62,25 +62,25 @@ export function ProfilePage() {
 
         {/* Settings */}
         <div>
-          <h3 className="font-semibold text-foreground mb-3">Account</h3>
+          <h3 className="font-semibold text-foreground mb-3">Аккаунт</h3>
           <div className="space-y-2">
             <Button
               variant="ghost"
               className="w-full justify-start text-foreground hover:bg-secondary"
             >
-              Order History
+              История заказов
             </Button>
             <Button
               variant="ghost"
               className="w-full justify-start text-foreground hover:bg-secondary"
             >
-              Saved Items
+              Сохраненные товары
             </Button>
             <Button
               variant="ghost"
               className="w-full justify-start text-foreground hover:bg-secondary"
             >
-              Settings
+              Настройки
             </Button>
           </div>
         </div>
@@ -90,7 +90,7 @@ export function ProfilePage() {
           className="w-full bg-destructive text-white hover:bg-destructive/90 rounded-lg"
         >
           <LogOut className="h-4 w-4 mr-2" />
-          Logout
+          Выход
         </Button>
       </div>
     </div>

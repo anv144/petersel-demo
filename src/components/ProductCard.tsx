@@ -27,7 +27,7 @@ export function ProductCard({ product }: ProductCardProps) {
       className="flex flex-col bg-white rounded-xl overflow-hidden shadow-sm border border-border cursor-pointer transition-transform hover:scale-105"
     >
       {/* Image */}
-      <div className="aspect-square bg-muted overflow-hidden">
+      <div className="aspect-[3/4] bg-muted overflow-hidden">
         <img
           src={product.image}
           alt={product.title}
@@ -47,9 +47,14 @@ export function ProductCard({ product }: ProductCardProps) {
 
         {/* Price and Button */}
         <div className="flex items-end justify-between mt-3 pt-3 border-t border-border">
-          <div className="flex flex-col">
+          <div className="flex flex-col gap-1">
+            {product.oldPrice && (
+              <p className="text-xs text-muted-foreground line-through">
+                {product.oldPrice.toLocaleString()} ₽
+              </p>
+            )}
             <p className="text-sm font-bold text-foreground">
-              ₽{product.price.toLocaleString()}
+              {product.price.toLocaleString()} ₽
             </p>
           </div>
           <Button
